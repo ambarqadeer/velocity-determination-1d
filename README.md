@@ -1,14 +1,14 @@
 # velocity-determination-1d
 Detection and 1d velocity determination of asteroids JWST MIRI imager data
 
-
 * This repo is only for the 1dim motion simulation
 
 EXECUTION STEPS:
 
-    Code execution steps: (assuming mirisim has been installed and setup, assuming jwst pipeline has been installed)
-    Duplicate the directory on git :
-    Activate mirisim env and run the siulation file 'simulation.ini'
+Code execution steps: (assuming mirisim has been installed and setup, assuming jwst pipeline has been installed)
+
+    clone the directory on git and cd to it
+    Activate mirisim env and run the simulation file 'simulation.ini'
     Exit mirisim env, go back to base or env containing jwst pipeline and other libraries imported in cell 1 of velocity-determination.ipynb
     Update the' velocity-determination.ipynb' notebook
 
@@ -53,3 +53,4 @@ simulation files
 
 
 Except the addition of the refmask and correcting the scene file name, other changes do not improve the code in any way, but were intended to make it easier to use for our specific implementation
+
