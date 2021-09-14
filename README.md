@@ -2,12 +2,9 @@
 Detection and 1d velocity determination of asteroids JWST MIRI imager data
 
 
-* This repo is only for the 1dim motion simulation and I will follow-up with the 2dim motion simulation and the remaining code as the day progresses.
+* This repo is only for the 1dim motion simulation
 
 EXECUTION STEPS:
-
-important - if you also download the simulation and output directories within the repo, the code will work out of the box with no updates to the 'velocity-determination.ipynb' notebook, by simply opening the notebook and running all cells (assuming all necessary libraries/packages including jwst pipeline are installed - see cell 1)
-                     Note that in the included simulation, the accuracy is not great for slow speeds due to some cosmic ray events simulations that fall very close to the asteroid streak, however this does not effect high velocity simulations as much
 
     Code execution steps: (assuming mirisim has been installed and setup, assuming jwst pipeline has been installed)
     Duplicate the directory on git :
